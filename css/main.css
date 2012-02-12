@@ -1,6 +1,49 @@
 body {
-    background-image: url(../img/leftcolumns.jpg), url(../img/rightcolumns.jpg);
-    background-position: top left, top right;
-    background-repeat: no-repeat;
-    background-color: #ddd;
+    background-color: #55445E;
+    color: #ddd;
 }
+
+h1,h2,h3,h4,h5,h6 {
+    color: #AC8ABE;
+}
+
+h1 small {
+    color: #9A7DA9;
+}
+
+div.row p {
+text-shadow: 0px 2px 3px #666;
+}
+
+.jumbotron {
+  position: relative;
+}
+.jumbotron h1 {
+  margin-top: 0.5em;
+  margin-bottom: 9px;
+  font-size: 81px;
+  letter-spacing: -1px;
+  line-height: 1em;
+}
+.jumbotron p {
+  margin-bottom: 18px;
+  font-weight: 300;
+}
+.jumbotron .btn-large {
+  font-size: 20px;
+  font-weight: normal;
+  padding: 14px 24px;
+  margin-right: 10px;
+  -webkit-border-radius: 6px;
+     -moz-border-radius: 6px;
+          border-radius: 6px;
+}
+
+.footer {
+  margin-top: 45px;
+  padding: 36px 0;
+  border-top: 1px solid #e5e5e5;
+}
+.footer p {
+  margin-bottom: 0;
+

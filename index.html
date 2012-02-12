@@ -15,60 +15,50 @@
     <link href="css/bootstrap-responsive.css" rel="stylesheet" type="text/css" />
     <link href="css/main.css" rel="stylesheet" type="text/css" />
   </head>
-  <body data-spy="scroll" data-target=".subnav" data-offset="50">
-      <!-- <div class="navbar navbar-fixed-top">
+  <body data-spy="scroll" data-target="#navbar" data-offset="50">
+      <div id="navbar" class="navbar navbar-fixed-top">
         <div class="navbar-inner">
           <div class="container">
-            <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </a>
-            <a class="brand" href="./index.html">Bootstrap</a>
+            <a class="brand" href="./index.html">CSUA Hackathon</a>
             <div class="nav-collapse">
               <ul class="nav">
-                <li class="">
-                  <a href="./index.html">Overview</a>
+                <li>
+                  <a href="#Welcome">Welcome</a>
                 </li>
-                <li class="active">
-                  <a href="./scaffolding.html">Scaffolding</a>
+                <li>
+                  <a href="#Schedule">Schedule</a>
                 </li>
-                <li class="">
-                  <a href="./base-css.html">Base CSS</a>
+                <li>
+                  <a href="#Prizes">Prizes</a>
                 </li>
-                <li class="">
-                  <a href="./components.html">Components</a>
+                <li>
+                  <a href="#Sponsors">Sponsors</a>
                 </li>
-                <li class="">
-                  <a href="./javascript.html">Javascript plugins</a>
+                <li>
+                  <a href="#SubmissionGuidelines">Submission Guidelines</a>
                 </li>
-                <li class="">
-                  <a href="./less.html">Using LESS</a>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Rules <b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#RulesTeams">Teams</a></li>
+                    <li><a href="#RulesContent">Content</a></li>
+                    <li><a href="#RulesCriteria">Criteria</a></li>
+                    <li><a href="#RulesJudging">Judging</a></li>
+                  </ul>
                 </li>
-                <li class="divider-vertical"></li>
-                <li class="">
-                  <a href="./download.html">Customize</a>
-                </li>
-                <li class="">
-                  <a href="./examples.html">Examples</a>
+                <li>
+                  <a href="#Disclaimers">Disclaimers</a>
                 </li>
               </ul>
             </div>
           </div>
         </div>
-      </div> -->
+      </div>
 
       <div class="container">
-        <header class="jumbotron subhead" id="overview">
-          <h1>CSUA Hackathon <small>Spring 2012</small></h1>
+        <header class="jumbotron subhead">
+          <h1>Spring 2012 Hackathon</h1>
           <p class="lead">We at the CSUA want you to write that hack you've always wanted, or really want right now! Join us for a night full of <b>food, fun, and furious coding</b>.</p>
-          <!-- <div class="subnav">
-            <ul class="nav nav-pills">
-              <li><a href="#grid-system">Grid system</a></li>
-              <li><a href="#layouts">Layouts</a></li>
-              <li><a href="#responsive">Responsive design</a></li>
-            </ul>
-          </div> -->
         </header>
 
         <section id="Welcome">
@@ -141,7 +131,7 @@
 			</div><!-- /row -->
 		</section>
 
-        <section id="Registration">
+        <section id="SubmissionGuidelines">
             <div class="page-header">
                 <h1>Submission Guidelines <small>How to participate.</small></h1>
             </div>
@@ -169,7 +159,7 @@
                 <h1>Rules <small>This school's got 'em.</small></h1>
             </div>
 			<div class="row">
-			    <div class="span12">
+			    <div id="RulesTeams" class="span12">
 			        <h3>Teams</h3>
 			        <ul>
 			            <li>Teams of any size or composition are welcome to participate and present!</li>
@@ -178,7 +168,7 @@
     			</div>
 			</div><!-- /row -->
 			<div class="row">
-			    <div class="span12">
+			    <div id="RulesContent" class="span12">
 			        <h3>Content</h3>
 			        <ul>
 			            <li>We want everyone to hack on something great and hope that you come to scratch your own itches.</li>
@@ -190,7 +180,7 @@
     			</div>
 			</div><!-- /row -->
 			<div class="row">
-			    <div class="span12">
+			    <div  id="RulesCriteria" class="span12">
 			        <h3>Criteria</h3>
 			        <ul>
 			            <li>Heroku is an incredibly useful platform for development and rapid deployment, and we highly recommend it. However, its use will not affect judging one way or another, and you should feel free to use whatever platform you please.</li>
@@ -200,9 +190,12 @@
 			</div><!-- /row -->
 
 			<div class="row">
-			    <div class="span12">
+			    <div  id="RulesJudging" class="span12">
 			        <h3>Judging</h3>
-			        <p>Our judges include one CSUA alumnus, two representatives each from <a href="http://www.likeness.com">Ness</a> and <a href="http://www.heroku.com">Heroku</a>, and our very own Brian Harvey!</p>
+			        <ul>
+			            <li>Our judges include one CSUA alumnus, two representatives each from <a href="http://www.likeness.com">Ness</a> and <a href="http://www.heroku.com">Heroku</a>, and our very own Brian Harvey!</p>
+			            </li>
+			        </ul>
     			</div>
 			</div><!-- /row -->
 		</section>
@@ -216,10 +209,28 @@
         		    The Kickoff and Hackathon events are are ASUC sponsored and ADA accessible.
 			    </div>
 			</div><!-- /row -->
-		</section>
-      </div><!-- /container -->
-      <script src="js/jquery-1.7.1.min.js"></script>
-      <script src="js/bootstrap.min.js"></script>
-      <script src="js/application.js"></script>
+        </section>
+
+        <section id="About">
+            <div class="page-header">
+                <h1>About the CSUA <small>Who we are.</small></h1>
+            </div>
+			<div class="row">
+        		<div class="span12">
+        		    TODO: Promo text for the CSUA
+			    </div>
+			</div><!-- /row -->
+        </section>
+
+        <footer class="footer">
+            <p class="pull-right"><a href="#">Back to top</a></p>
+            <p>Designed and built by Samantha Dove and Andrew Toulouse.</p>
+            <p>With many thanks to Twitter for <a href="twitter.github.com/bootstrap" target="_blank">Bootstrap</a>, which is awesome.</p>
+        </footer>
+
+    </div><!-- /container -->
+    <script src="js/jquery-1.7.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- <script src="js/application.js"></script> -->
   </body>
 </html>
