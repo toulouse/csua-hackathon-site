@@ -15,6 +15,7 @@ div.row p {
 text-shadow: 0px 2px 3px #666;
 }
 
+/* Modified from bootstrap. */
 .jumbotron {
   position: relative;
 }
