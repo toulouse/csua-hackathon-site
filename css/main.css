@@ -1,0 +1,6 @@
+body {
+    background-image: url(../img/leftcolumns.jpg), url(../img/rightcolumns.jpg);
+    background-position: top left, top right;
+    background-repeat: no-repeat;
+    background-color: #ddd;
+}
