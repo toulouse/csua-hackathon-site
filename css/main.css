@@ -12,8 +12,23 @@ h1 small {
 }
 
 div.row p {
-text-shadow: 0px 2px 3px #666;
+    text-shadow: 0px 2px 3px #666;
 }
+
+.logorow {
+    padding: 0 0 2em;
+}
+
+.ness-logo {
+    display:block;
+    margin:0 auto;
+}
+
+.heroku-logo {
+    display:block;
+    margin:0 auto;
+}
+
 
 /* Modified from bootstrap. */
 .jumbotron {
