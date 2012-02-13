@@ -1,3 +1,8 @@
+/* Notes:
+    @linkColor is saturate(lighten(@linkColorHover, 15%), 10%)
+    @linkColorHover is #9a7da9
+*/
+
 body {
     background-color: #55445E;
     color: #ddd;
@@ -9,10 +14,6 @@ h1,h2,h3,h4,h5,h6 {
 
 h1 small {
     color: #9A7DA9;
-}
-
-div.row p {
-    text-shadow: 0px 2px 3px #666;
 }
 
 .logorow {
@@ -29,30 +30,28 @@ div.row p {
     margin:0 auto;
 }
 
-
 /* Modified from bootstrap. */
 .jumbotron {
   position: relative;
 }
+
 .jumbotron h1 {
-  margin-top: 0.5em;
   margin-bottom: 9px;
-  font-size: 81px;
+  font-size: 40px;
   letter-spacing: -1px;
   line-height: 1em;
 }
+
+@media (min-width: 980px) {
+    .jumbotron h1 {
+      margin-top: 0.5em;
+      font-size: 81px;
+    }
+}
+
 .jumbotron p {
   margin-bottom: 18px;
   font-weight: 300;
-}
-.jumbotron .btn-large {
-  font-size: 20px;
-  font-weight: normal;
-  padding: 14px 24px;
-  margin-right: 10px;
-  -webkit-border-radius: 6px;
-     -moz-border-radius: 6px;
-          border-radius: 6px;
 }
 
 .footer {
